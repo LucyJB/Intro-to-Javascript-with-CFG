@@ -6,8 +6,10 @@
 • DRY - Don't Repeat Yourself
   eg console.log("Good morning, Bob"); becomes:
 
-  greeting = "Good morning," //assigning a variable to the string
-  console.log(greeting "Bob");
+  const greeting = "Good morning," //assigning a variable to the string
+  console.log(greeting + "Bob");
 
-•
+##### Constants
+
+• Constants a way to assign a variable to avoid repeating
   
